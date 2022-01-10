@@ -4,7 +4,9 @@ ideas = {
 		bold_attack_spirit = {
 			ledger = army
 			modifier = {
-				custom_modifier_tooltip = bold_attack_spirit_tt
+				planning_speed = 0.5
+				army_speed_factor = 0.10
+				org_loss_when_moving = -0.1
 			}
 			ai_will_do = {
 				factor = 1
@@ -224,8 +226,8 @@ ideas = {
 		mobile_warfare_army_spirit = {
 			visible = { has_tech = mobile_warfare }
 			ledger = army
-			modifier = {
 
+			modifier = {
 				experience_gain_motorized_combat_factor = 0.1
 				experience_gain_mechanized_combat_factor = 0.1
 				unit_light_armor_design_cost_factor = -1
@@ -239,6 +241,7 @@ ideas = {
 				unit_motorized_design_cost_factor = -1
 				unit_mechanized_design_cost_factor = -1
 			}
+
 			ai_will_do = {
 				factor = 1
 			}
