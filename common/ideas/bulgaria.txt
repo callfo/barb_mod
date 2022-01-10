@@ -1,4 +1,26 @@
 ideas = {
+
+	country = {
+		BUL_army_restrictions = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+	}
 	
 	political_advisor = {
 

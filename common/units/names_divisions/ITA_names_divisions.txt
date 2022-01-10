@@ -159,38 +159,6 @@ ITA_INF_02 = {
 	} 
 } 
 
-ITA_INF_03 = {
-
-	name = "Bersaglieri Regiment"
-	
-	for_countries = { ITA }
-	
-	can_use = { always = yes }
-	
-	division_types = { "infantry" "motorized" "mechanized" }
-	
-	link_numbering_with = { ITA_INF_01 }
-	
-	fallback_name = "%d° Reggimento Bersaglieri"
-	
-}
-
-ITA_INF_04 = {
-
-	name = "Bersaglieri Division"
-	
-	for_countries = { ITA }
-	
-	can_use = { always = yes }
-	
-	division_types = { "infantry" "motorized" "mechanized" }
-	
-	link_numbering_with = { ITA_INF_03 }
-	
-	fallback_name = "%da Divisione Bersaglieri"
-	
-}
-
 ITA_COL_01 = { 
 	name = "Colonial Division" 
 
@@ -286,13 +254,13 @@ ITA_CAV_01 = {
 } 
 
 ITA_CAV_02 = { 
-	name = "Celere Division" 
+	name = "Cavalry Division" 
 
 	for_countries = { ITA } 
 
 	can_use = { always = yes } 
 
-	division_types = { "cavalry" "light_armor" "motorized" "mechanized" } 
+	division_types = { "cavalry" } 
 
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { ITA_CAV_02 } 
@@ -308,46 +276,6 @@ ITA_CAV_02 = {
 	} 
 } 
 
-ITA_CAV_03 = { 
-	name = "Cavalry Division" 
-
-	for_countries = { ITA } 
-
-	can_use = { always = yes } 
-
-	division_types = { "cavalry" } 
-
-	# Number reservation system will tie to another group.
-	link_numbering_with = { ITA_CAV_01 } 
-
-	fallback_name = "%d° Reggimento di Cavalleria" 
-
-	# Names with numbers (only one number per entry).
-	# It's okay to have gaps in numbering.
-	ordered = { 
-		1 = { "%da Divisione 'Nizza Cavalleria'" } 
-		2 = { "%da Divisione 'Piemonte Cavalleria'" } 
-		3 = { "%da Divisione 'Savoia Cavalleria'" } 
-		4 = { "%da Divisione 'Genova Cavalleria'" } 
-		5 = { "%da Divisione 'Lancieri di Novara'" } 
-		6 = { "%da Divisione 'Lancieri di Aosta'" } 
-		8 = { "%da Divisione 'Lancieri di Montebello'" } 
-		13 = { "%da Divisione 'Cavalleggeri di Monferrato'" } 
-		15 = { "%da Divisione 'Cavalleggeri di Lodi'" } 
-		19 = { "%da Divisione 'Cavalleggeri Guide'" } 
-		7 = { "%da Divisione di Cavalleria" } 										# Filler divisions (7, 9 - 12, 14, 16- 18, 20) start here
-		9 = { "%da Divisione di Cavalleria" } 
-		10 = { "%da Divisione di Cavalleria" } 
-		11 = { "%da Divisione di Cavalleria" } 
-		12 = { "%da Divisione di Cavalleria" } 
-		14 = { "%da Divisione di Cavalleria" } 
-		16 = { "%da Divisione di Cavalleria" } 
-		17 = { "%da Divisione di Cavalleria" } 
-		18 = { "%da Divisione di Cavalleria" } 
-		20 = { "%da Divisione di Cavalleria" } 
-	} 
-}
-
 ITA_MOT_01 = { 
 	name = "Motorized Division" 
 
@@ -358,7 +286,7 @@ ITA_MOT_01 = {
 	division_types = { "motorized" } 
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ITA_INF_01 } 
+	link_numbering_with = { ITA_INF_01 } 
 
 	fallback_name = "%da Divisione Motorizzata" 
 
@@ -406,7 +334,7 @@ ITA_MEC_01 = {
 	division_types = { "mechanized" } 
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { ITA_MOT_01 } 
+	link_numbering_with = { ITA_INF_01 } 
 
 	fallback_name = "%da Divisione Meccanizzata" 
 
@@ -438,10 +366,10 @@ ITA_ARM_01 = {
 
 	can_use = { always = yes } 
 
-	division_types = { "medium_armor" "heavy_armor" "modern_armor" } 
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" } 
 
-	#Number reservation system will tie to another group.
-	#link_numbering_with = { ITA_INF_01 } 
+	# Number reservation system will tie to another group.
+	link_numbering_with = { ITA_INF_01 } 
 
 	fallback_name = "%da Divisione Corazzata" 
 
