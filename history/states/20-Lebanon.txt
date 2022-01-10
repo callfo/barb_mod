@@ -10,7 +10,7 @@ state={
 	state_category = town
 
 	history={
-		owner = FRA
+		owner = ENG
 		add_core_of = LEB
 		buildings = {
 			infrastructure = 4

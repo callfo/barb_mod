@@ -19,28 +19,23 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1935.3.31"
-	election_frequency = 48
-	elections_allowed = yes
+	ruling_party = fascism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
 }
-
 set_popularities = {
-	democratic = 25
-	fascism = 31
-	neutrality = 44
+	democratic = 3
+	fascism = 65
+	communism = 2
+	neutrality = 30
 }
 
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-	add_ideas = {
-		disarmed_nation
-		HUN_treaty_of_triannon
-	}
+add_ideas = {
+	extended_conscription
+	war_economy
 }
-
+	
 if = {
 	limit = {
 		has_dlc = "Death or Dishonor"

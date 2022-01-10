@@ -95,6 +95,11 @@ if = {
 
 set_convoys = 200
 
+declare_war_on = {
+    target = GRE
+    type = annex_everything
+}
+
 set_politics = {
 	ruling_party = fascism
 	last_election = "1934.3.26"

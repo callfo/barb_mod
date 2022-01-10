@@ -103,7 +103,7 @@ set_variable = { var = ss_anger value = 0 }
 set_research_slots = 4
 set_convoys = 200
 set_stability = 0.75 
-set_war_support = 0.3
+set_war_support = 1
 
 create_faction = Axis
 add_to_faction = GER
