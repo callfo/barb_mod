@@ -107,24 +107,25 @@ set_war_support = 0.3
 
 create_faction = Axis
 add_to_faction = GER
+GER = { add_to_faction = ITA }
+GER = { add_to_faction = HUN }
+GER = { add_to_faction = ROM }
+GER = { add_to_faction = BUL }
+GER = { add_to_faction = CRO }
+GER = { add_to_faction = FRA }
+GER = { puppet = SLO }
 
 add_ideas = {
 	sour_loser
 	general_staff
 	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	extended_conscription
+	war_economy
 }
-add_ideas = GER_mefo_bills_1
+
 
 activate_mission = GER_mefo_bills_mission
 
-#Trade
-create_import = {
-		resource = tungsten
-		factories = 1
-		exporter = SWE
-}
 
 set_politics = {
 	ruling_party = fascism
