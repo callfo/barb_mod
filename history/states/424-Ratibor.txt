@@ -1,0 +1,25 @@
+state={
+	id=424
+	name="STATE_424"
+	resources={
+		steel=30.000
+		aluminium=10.000
+	}
+	provinces={
+		2419 4607 6638 7632 14196 14233 14265 14275 
+	}
+	
+	history={
+		add_core_of = GER
+		add_core_of = SIL
+		owner = GER
+		buildings = {
+			infrastructure = 6
+		}
+
+	}
+	
+	manpower=561036
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}
