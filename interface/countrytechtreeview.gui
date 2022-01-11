@@ -950,8 +950,19 @@ guiTypes = {
 						format = left
 						Orientation = "UPPER_LEFT"
 					}
+					instantTextBoxType = {
+						name = "armour_year7"
+						position = { x = 60 y = 836 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1945"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
 				}
-					
 					
 				containerWindowType = {
 					name = "armour_year_right"
@@ -1035,7 +1046,20 @@ guiTypes = {
 						maxHeight = 32
 						format = left
 						Orientation = "UPPER_LEFT"
+					}	
+					instantTextBoxType = {
+						name = "armour_year7_left"
+						position = { x = 0 y = 836 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1945"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
 					}			
+
 				}			
 			}
 
@@ -1085,18 +1109,6 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
-				instantTextBoxType = {
-					name = "armour_subtitle_medium_research_lock"
-					position = { x = -400 y = 750 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = {x = 0 y = 4}
-					text = "M3 and H3 are locked behind 1940 -->"
-					maxWidth = 600
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}	
 			}	
 
 				
@@ -1110,7 +1122,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "armor_tech_1_tree"
-				position = { x = 35% y = 137 }
+				position = { x = -600 y = 137 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
