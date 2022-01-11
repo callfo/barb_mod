@@ -5789,5 +5789,102 @@ spriteType = {
 		name = "GFX_ITA_fighter4_medium"
 		texturefile = "gfx/interface/technologies/ita_sagittario_re2005.tga"
 	}
+	
+	#diggydiggytrench, made by Xenbang##	
 
+	SpriteType = {
+		name = "GFX_tech_dig_1_medium"
+		texturefile = "gfx/interface/technologies/land/entrenchment_tools.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_dig_2_medium"
+		texturefile = "gfx/interface/technologies/land/entrenchment_tools2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_dig_3_medium"
+		texturefile = "gfx/interface/technologies/land/entrenchment_tools3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_dig_4_medium"
+		texturefile = "gfx/interface/technologies/land/entrenchment_tools4.dds"
+	}
+
+	##camo, made by Xenbang###
+
+	SpriteType = {
+		name = "GFX_camo_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/land/infantrycamo1.dds"
+	}
+	SpriteType = {
+		name = "GFX_camo_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/land/infantrycamo2.dds"
+	}
+	######################## Uniforms ################
+	SpriteType = {
+		name = "GFX_field_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/land/swe/SWE_uniform_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_field_equipment_medium"
+		texturefile = "gfx/interface/technologies/land/swe/SWE_uniform_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_field_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/land/fieldequipment2.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_field_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/land/fieldequipment3.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_field_equipment_4_medium"
+		texturefile = "gfx/interface/technologies/land/fieldequipment4.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_field_equipment_5_medium"
+		texturefile = "gfx/interface/technologies/land/fieldequipment5.tga"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_medium"
+		texturefile = "gfx/interface/technologies/land/antitank1.tga"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at2_medium"
+		texturefile = "gfx/interface/technologies/land/antitank2.tga"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at3_medium"
+		texturefile = "gfx/interface/technologies/land/antitank3.tga"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at4_medium"
+		texturefile = "gfx/interface/technologies/land/antitank4.tga"
+	}
+	SpriteType = {
+		name = "GFX_marines5_medium"
+		texturefile = "gfx/interface/technologies/marines5.dds"
+	}
+	SpriteType = {
+		name = "GFX_marines4_medium"
+		texturefile = "gfx/interface/technologies/marines4.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_mountaineers5_medium"
+		texturefile = "gfx/interface/technologies/mountain5.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_mountaineers4_medium"
+		texturefile = "gfx/interface/technologies/mountain4.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons5_medium"
+		texturefile = "gfx/interface/technologies/land/support_weapons5.dds"
+	}
+	SpriteType = {
+		name = "GFX_field_equipment_medium"
+		texturefile = "gfx/interface/technologies/land/SWE_uniform_1.dds"
+	}
 }	
