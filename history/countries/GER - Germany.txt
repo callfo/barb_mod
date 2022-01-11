@@ -57,6 +57,7 @@ set_technology = {
 	excavation1 = 1
 	interwar_artillery = 1
 	artillery1 = 1
+	basic_train = 1
 	
 	synth_oil_experiments = 1
 	fuel_silos = 1
