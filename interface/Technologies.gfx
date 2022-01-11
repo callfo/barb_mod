@@ -5283,8 +5283,17 @@ spriteType = {
 	}
 	SpriteType = {
 		name = "GFX_GER_advanced_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/GER_medium_tank_chassis_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_more_advanced_medium_tank_chassis_medium"
 		texturefile = "gfx/interface/technologies/GER_medium_tank_chassis_3.dds"
 	}
+	SpriteType = {
+		name = "GFX_GER_even_more_advanced_medium_tank_chassis_medium"
+		texturefile = "gfx/interface/technologies/GER_medium_tank_chassis_3.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_GER_super_heavy_tank_chassis_medium"
 		texturefile = "gfx/interface/technologies/ger_superheavy_tank.dds"

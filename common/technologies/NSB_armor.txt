@@ -512,7 +512,7 @@ technologies = {
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y =  @1944 }
+			position = { x = 0 y = @1945 }
 		}
 
 		ai_will_do = {
@@ -1227,7 +1227,7 @@ technologies = {
 		start_year = 1914
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -2 y = @1936 }
+			position = { x = -3 y = @1936 }
 		}
 		
 		categories = {
@@ -1274,7 +1274,7 @@ technologies = {
 		start_year = 1940
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -2 y = @1940 }
+			position = { x = -3 y = @1940 }
 		}
 		
 		categories = {
@@ -1316,7 +1316,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = nsb_armour_folder
-			position = { x = -2 y = @1942 }
+			position = { x = -3 y = @1942 }
 		}
 		
 		categories = {
@@ -1422,16 +1422,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2
-		start_year = 1940
+		start_year = 1939
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 0 y = @1940 }
+			position = { x = 0 y = @1939 }
 		}
 		
 		categories = {
@@ -1442,10 +1437,64 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 2
-			modifier = {
-				tag = USA
-				factor = 2
-			}
+		}
+	}
+	
+	mechanised_infantry2 = {
+
+		enable_equipments = {
+			mechanized_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = mechanised_infantry3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1941
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = @1941 }
+		}
+		
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mechanised_infantry3 = {
+
+		enable_equipments = {
+			mechanized_equipment_3
+		}
+
+		mechanized = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+
+		research_cost = 3
+		start_year = 1943
+		folder = {
+			name = nsb_armour_folder
+			position = { x = 0 y = @1943 }
+		}
+		
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -1472,7 +1521,7 @@ technologies = {
 		start_year = 1941
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1941 }
+			position = { x = 3 y = @1941 }
 		}
 		
 		categories = {
@@ -1497,13 +1546,11 @@ technologies = {
 			amphibious_mechanized_equipment_2
 		}
 
-		
-
 		research_cost = 2
 		start_year = 1943
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 2 y = @1943 }
+			position = { x = 3 y = @1943 }
 		}
 		
 		categories = {
@@ -1517,62 +1564,5 @@ technologies = {
 			factor = 2
 		}
 	}
-	
-	mechanised_infantry2 = {
 
-		enable_equipments = {
-			mechanized_equipment_2
-		}
-		
-		path = {
-			leads_to_tech = mechanised_infantry3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 0 y = @1942 }
-		}
-		
-		categories = {
-			motorized_equipment
-			infantry_tech
-			cat_mechanized_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	mechanised_infantry3 = {
-
-		enable_equipments = {
-			mechanized_equipment_3
-		}
-
-		mechanized = {
-			soft_attack = 0.15
-			hard_attack = 0.15
-		}
-
-		research_cost = 3
-		start_year = 1944
-		folder = {
-			name = nsb_armour_folder
-			position = { x = 0 y = @1944 }
-		}
-		
-		categories = {
-			motorized_equipment
-			infantry_tech
-			cat_mechanized_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 }
