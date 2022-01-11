@@ -1,0 +1,17 @@
+bookmarks = {
+	bookmark = {
+		name = "BARB_NAME"
+		desc = "BARB_DESC"
+		date = 1941.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = no
+		"---"={
+			history = "OTHER_BARB_DESC"
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

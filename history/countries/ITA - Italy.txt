@@ -6,6 +6,12 @@ set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.6
 
+add_to_war = { 
+    targeted_alliance = GER
+    enemy = ENG
+    hostility_reason = asked_to_join
+}
+
 
 # Starting tech
 set_technology = {

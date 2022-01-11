@@ -14,6 +14,12 @@ add_ideas = {
 	war_economy
 }
 
+add_to_war = { 
+    targeted_alliance = GER
+    enemy = ENG
+    hostility_reason = asked_to_join
+}
+
 
 if = {
 	limit = {
@@ -29,7 +35,7 @@ if = {
 
 set_research_slots = 3
 set_stability = 0.6
-set_war_support = 0.6
+set_war_support = 0.9
 
 # Starting tech
 set_technology = {

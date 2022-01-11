@@ -6,21 +6,7 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
-		
-		"FRA"={
-			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				FRA_victors_of_wwi
-				FRA_disjointed_government
-				FRA_protected_by_the_maginot_line
-			}
-			focuses = {
-				FRA_little_entente
-				FRA_go_with_britain
-				FRA_revise_versailles
-			}
-		}
+	
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
@@ -104,21 +90,6 @@ bookmarks = {
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
-		
-		"CZE"={
-			minor = yes
-			history = "CZE_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-				CZE_skoda_works
-				CZE_divided_nation
-			}
-			focuses = {
-				CZE_sudeten_1
-				CZE_industrial_legacy
-				CZE_military_research_institute
-			}
-		}
 
 		"HUN"={
 			minor = yes
@@ -149,22 +120,32 @@ bookmarks = {
 				YUG_establish_the_banovina_of_croatia
 			}
 		}
-
-		"FIN"={
+		
+		"EGY"={
 			minor = yes
-			history = "FIN_GATHERING_STORM_DESC"
-			ideology = neutrality
+			history = "EGY_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
-				nationalised_finnish_industries
-				fin_winter_war
-				fin_civilian_goals
+			
 			}
 			focuses = {
-				FIN_elect_kyosti
-				FIN_march_against_government
-				FIN_defense_committee
+				
 			}
 		}
+		
+		"CRO"={
+			minor = yes
+			history = "CRO_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+
 
 		
 		effect = {

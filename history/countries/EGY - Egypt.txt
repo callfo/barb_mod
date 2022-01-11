@@ -2,17 +2,19 @@
 
 oob = "EGY_1936"
 
+add_to_war = { 
+    targeted_alliance = ENG
+    enemy = GER
+    hostility_reason = asked_to_join
+}
+set_stability = 0.6
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	gwtank = 1
 	support_weapons = 1
 	gw_artillery = 1
-	
-	#doctrines
-	air_superiority = 1
-	grand_battle_plan = 1
-	fleet_in_being = 1
 	
 	#industry
 	fuel_silos = 1

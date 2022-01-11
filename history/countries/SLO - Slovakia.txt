@@ -1,6 +1,13 @@
 ﻿capital = 245
 
 #oob = "SLO_1939"
+set_war_support = 0.9
+
+add_to_war = { 
+    targeted_alliance = GER
+    enemy = ENG
+    hostility_reason = asked_to_join
+}
 
 set_technology = {
 	gw_artillery = 1
