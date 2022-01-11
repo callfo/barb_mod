@@ -988,7 +988,7 @@ instantTextBoxType = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1945"
+						text = "1944"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -1085,7 +1085,7 @@ instantTextBoxType = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1945"
+						text = "1944"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -1143,7 +1143,14 @@ instantTextBoxType = {
 				}
 			}	
 
-				
+			gridboxtype = {
+				name = "motorised_infantry_tree"
+				position = { x = 820 y = 137 }
+				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
 			gridboxtype = {
 				name = "gwtank_chassis_tree"
 				position = { x = 10% y = 172 }
