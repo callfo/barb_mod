@@ -1,1 +1,0 @@
-NDefines.NGame.START_DATE = "1936.1.1.12"
