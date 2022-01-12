@@ -1,7 +1,7 @@
 --Horst defines:
 
 --------------------------------------------------------------
----nukes
+
 --NDefines.NMilitary.NUKE_MIN_DAMAGE_PERCENT =0
 --NDefines.NMilitary.NUKE_MAX_DAMAGE_PERCENT =0.1
 --NDefines.NMilitary.NUKE_DELAY_HOURS =12
@@ -9,11 +9,11 @@ NDefines.NMilitary.RETREAT_SPEED_FACTOR = 0.25
 NDefines.NMilitary.WITHDRAWING_SPEED_FACTOR = 0.25
 NDefines.NProduction.CAPITULATE_STOCKPILES_RATIO = 0.001
 NDefines.NResistance.COMPLIANCE_GROWTH_BASE = 0.075
---new graphics
+
 NDefines.NGraphics.COUNTRY_COLOR_SATURATION_MODIFIER = 0.9 -- 0.6
 NDefines.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.9 -- 0.8
 --NDefines.NMapMode.MAP_MODE_TERRAIN_TRANSPARENCY = 0.2
---test
+
 NDefines_Graphics.NMapMode.MAP_MODE_TERRAIN_TRANSPARENCY = 0.8
 NDefines_Graphics.NGraphics.BORDER_WIDTH = 1
 NDefines.NNavy.CONVOY_LOSS_HISTORY_TIMEOUT_MONTHS = 3
@@ -22,11 +22,11 @@ NDefines.NAI.GIVE_STATE_CONTROL_MIN_CONTROLLED = 0       -- WAS 1
 NDefines.NAI.GIVE_STATE_CONTROL_MIN_CONTROL_DIFF = 0     -- WAS 2
 NDefines.NTechnology.MAX_SUBTECHS = 4
 
-NDefines.NGame.START_DATE = "1941.1.1.12",
-NDefines.NGame.END_DATE = "1949.1.1.1",
 
 --Performance
 
+NDefines.NGame.START_DATE = "1941.1.1.12"
+NDefines.NGame.END_DATE = "1949.1.1.1"
 NDefines.NGame.COMBAT_LOG_MAX_MONTHS = 6
 NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 300
 NDefines.NGame.LAG_DAYS_FOR_PAUSE = 100
@@ -116,22 +116,11 @@ NDefines_Graphics.NGraphics.COMMANDGROUP_PRESET_COLORS_HSV = {
 	330.0/360.0, 0, 1.0		--white
 }
 
-
-
-
-
-
-
-
 --NDefines_Graphics.NAirGfx.MAX_MISSILE_BOMBING_SCENARIOS = 0
 --NDefines_Graphics.NAirGfx.MAX_BOMBING_SCENARIOS = 0
 NDefines_Graphics.NAirGfx.MAX_PATROL_SCENARIOS = 0
 NDefines_Graphics.NAirGfx.MAX_DOGFIGHTS_SCENARIOS = 0
 NDefines_Graphics.NAirGfx.MAX_TRANSPORT_SCENARIOS = 0
-
-
-
-
 
 NDefines_Graphics.NGraphics.CAMERA_ZOOM_SPEED_DISTANCE_MULT = 20
 NDefines_Graphics.NGraphics.MAPICON_GROUP_STRATEGIC_SIZE = 1000

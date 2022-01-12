@@ -1019,16 +1019,10 @@ ENG_MNT_01 = {
 ENG_MNT_02 = { 
 	name = "Gurkha Division" 
 
-	for_countries = { ENG RAJ } 
+	for_countries = { ENG } 
 
 	can_use = {
-		OR = {
-			tag = ENG
-			AND = {
-				tag = RAJ
-				has_completed_focus = RAJ_indian_gurkhas
-			}
-		}
+		tag = ENG 
 	}
 
 	division_types = { "mountaineers" } 
@@ -1160,12 +1154,6 @@ ENG_COL_01 = {
 	name = "Colonial Division"
 
 	for_countries = { ENG }
-
-	can_use = {
-		NOT = {
-			has_completed_focus = ENG_decolonization
-		}
-	}
 
 	division_types = { "infantry" }
 

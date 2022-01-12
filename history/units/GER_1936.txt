@@ -1,44 +1,188 @@
 ﻿division_template = {
+	name = "Suppression"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 0 y = 4 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+		cavalry = { x = 1 y = 4 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
 	name = "Infanterie-Division"
-
 	division_names_group = GER_Inf_01
-
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-        infantry = { x = 1 y = 0 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-        infantry = { x = 2 y = 0 }
+		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
 	}
-	
 	support = {
-        engineer = { x = 0 y = 0 }
-        artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "Infanterie-Division (West)"
+	division_names_group = GER_Inf_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+		anti_air_brigade = { x = 2 y = 4 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		infantry = { x = 3 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Leichte Panzer-Division"
+	division_names_group = GER_Arm_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 0 y = 3 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		light_tank_destroyer_brigade = { x = 1 y = 3 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+		light_armor = { x = 2 y = 2 }
+		light_sp_anti_air_brigade = { x = 2 y = 3 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		motorized = { x = 3 y = 2 }
+		motorized = { x = 3 y = 3 }
+		motorized = { x = 4 y = 0 }
+		motorized = { x = 4 y = 1 }
+		motorized = { x = 4 y = 2 }
+		motorized = { x = 4 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		armored_car_recon = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		military_police = { x = 0 y = 4 }
 	}
 }
 
 division_template = {
 	name = "Panzer-Division"
-
 	division_names_group = GER_Arm_01
-
 	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-        light_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
-		motorized = { x = 2 y = 0 }
-        motorized = { x = 2 y = 1 }
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 0 y = 3 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }
+		medium_tank_destroyer_brigade = { x = 1 y = 3 }
+		medium_armor = { x = 2 y = 0 }
+		medium_armor = { x = 2 y = 1 }
+		medium_armor = { x = 2 y = 2 }
+		medium_sp_anti_air_brigade = { x = 2 y = 3 }
+		mechanized = { x = 3 y = 0 }
+		mechanized = { x = 3 y = 1 }
+		mechanized = { x = 3 y = 2 }
+		mechanized = { x = 3 y = 3 }
+		mechanized = { x = 4 y = 0 }
+		mechanized = { x = 4 y = 1 }
+		mechanized = { x = 4 y = 2 }
+		mechanized = { x = 4 y = 3 }
 	}
 	support = {
-        mot_recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-        artillery = { x = 0 y = 2 }
+		engineer = { x = 0 y = 0 }
+		armored_car_recon = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
 	}
+}
+
+
+division_template = {
+	name = "Brandenburgers"
+	division_names_group = GER_MNT_01
+	is_locked = yes
+	regiments = {
+		shocktroop = { x = 0 y = 0 }
+		mountaineer = { x = 0 y = 1 }
+		mountaineer = { x = 0 y = 2 }
+		mountaineer = { x = 0 y = 3 }
+		artillery_brigade = { x = 3 y = 0 }
+		mountaineer = { x = 1 y = 0 }
+		mountaineer = { x = 1 y = 1 }
+		mountaineer = { x = 1 y = 2 }
+		mountaineer = { x = 1 y = 3 }
+		artillery_brigade = { x = 3 y = 1 }
+		mountaineer = { x = 2 y = 0 }
+		mountaineer = { x = 2 y = 1 }
+		mountaineer = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 2 }
+		mountaineer = { x = 0 y = 4 }
+		mountaineer = { x = 1 y = 4 }
+		mountaineer	 = { x = 2 y = 3 }
+		anti_tank_brigade = { x = 2 y = 4 }
+		anti_air_brigade = { x = 3 y = 4 }
+		anti_air_brigade = { x = 3 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3  }
+		anti_tank = { x = 0 y = 4  }
+		signal_company = { x = 0 y = 5  }
+	}
+	priority = 2
 }
 
 division_template = {
@@ -98,298 +242,130 @@ division_template = {
 	}
 }
 
-units = {
+if = { 
+	limit = { has_dlc = "No Step Back" }
 
-	##### Oberkommando des Heeres #####
-	### 1. Armee (Wehrmacht-Gruppenkommando) ###
-	# II. Armeekorps
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
+	#LSPAA
+	create_equipment_variant = {
+		name = "FlakPz Luchs"
+		type = light_tank_aa_chassis_2
+		parent_version = 1
+		modules = {
+			main_armament_slot = tank_anti_air_cannon_2
+			turret_type_slot = tank_light_two_man_tank_turret
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
 		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 12
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
 		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	# III. Armeekorps
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 3
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 23
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	# Panzertruppenkommando
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 19458
-		division_template = "Panzer-Division"
-		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 2
-		}
-		location = 19458
-		division_template = "Panzer-Division"
-		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 3
-		}
-		location = 19458
-		division_template = "Panzer-Division"
-		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_equipment_1 = { owner = "GER" } }
+
+		icon = "gfx/interface/technologies/armor/ger_light_tank_aa_1.dds"
 	}
 
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
+	#DEFAULT LIGHT TANK
+	create_equipment_variant = {
+		name = "Panzer 38(t)"
+		type = light_tank_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_auto_cannon_2
+			turret_type_slot = tank_light_two_man_tank_turret
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
 		}
-		location = 19458
-		division_template = "Infanterie-Division (mot.)"
-		start_experience_factor = 0.3
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
+		}
+
+		icon = "gfx/interface/technologies/ger_basic_light_tank.dds"
 	}
 
-	### 3. Armee (Wehrmacht-Gruppenkommando) ###
-	# IV. Armeekorps
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 4
+	#LIGHT TD
+	create_equipment_variant = {
+		name = "Marder III"
+		type = light_tank_destroyer_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_small_cannon_2
+			turret_type_slot = tank_light_fixed_superstructure_turret
+			special_type_slot_1 = tank_radio_1
+			special_type_slot_2 = secondary_turret_small_cannon
+			special_type_slot_3 = extra_ammo_storage
+
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
 		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 14
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
 		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 24
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	# VIII. Armeekorps
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 8
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 18
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
+
+		icon = "gfx/interface/technologies/ger_improved_light_td.dds"
 	}
 
-	# I. Armeekorps
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
+	#DEFAULT LIGHT TANK
+	create_equipment_variant = {
+		name = "Panzer III/IV"
+		type = medium_tank_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_medium_cannon_2
+			turret_type_slot = tank_medium_three_man_tank_turret
+			special_type_slot_1 = tank_radio_5
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = extra_ammo_storage
+
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
 		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 11
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
 		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 21
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "Kavallerie-Kommando Insterburg" 
-		location = 19458
-		division_template = "Kavallerie-Brigade"
-		start_experience_factor = 0.3
+
+		icon = "gfx/interface/technologies/ger_basic_light_tank.dds"
 	}
 
+	#LIGHT TD
+	create_equipment_variant = {
+		name = "Nashorn"
+		type = medium_tank_destroyer_chassis_2
+		parent_version = 0
+		modules = {
+			main_armament_slot = tank_medium_cannon_2
+			turret_type_slot = tank_medium_fixed_superstructure_turret
+			special_type_slot_1 = tank_radio_3
+			special_type_slot_2 = tank_high_velocity_cannon_2
+			special_type_slot_3 = extra_ammo_storage
 
-	### 2. Armee (Wehrmacht-Gruppenkommando) ###
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 13
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
 		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	# VI. Armeekorps
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 6
+		upgrades = {
+			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 2
 		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 16
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	# IX. Armeekorps
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 9
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 15
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	# X. Armeekorps
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 19
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 20
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 22
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
 
-	# V. Armeekorps
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 5
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-
-	# VII. Armeekorps
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 7
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 10
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		division_name = {
-				is_name_ordered = yes
-				name_order = 17
-		}
-		location = 19458
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}			
-	division= {	
-		name = "Gebirgs-Brigade" 
-		location = 19458
-		division_template = "Gebirgs-Brigade" 
-		start_experience_factor = 0.3
+		icon = "gfx/interface/technologies/ger_improved_light_td.dds"
 	}
 }
+
 
 ### Air oob
 air_wings = {
