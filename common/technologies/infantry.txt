@@ -584,7 +584,7 @@ infantry_weapons = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		
 		ai_will_do = {
@@ -620,7 +620,7 @@ infantry_weapons = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		
 		ai_will_do = {
@@ -651,7 +651,7 @@ infantry_weapons = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		
 		ai_will_do = {
@@ -685,7 +685,7 @@ infantry_weapons = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		
 		ai_will_do = {
@@ -718,7 +718,7 @@ infantry_weapons = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		
 		ai_will_do = {
@@ -747,7 +747,7 @@ infantry_weapons = {
 		categories = {
 			mountaineers_tech
 			marine_tech
-			para_tech
+			
 		}
 		
 		ai_will_do = {

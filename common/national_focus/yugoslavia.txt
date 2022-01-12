@@ -3455,12 +3455,6 @@
 
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = YUG_form_parachute_battalions
-				bonus = 3.0
-				uses = 1
-				category = para_tech
-			}
 		}
 	}
 

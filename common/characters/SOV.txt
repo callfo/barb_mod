@@ -175,13 +175,6 @@ characters = {
 				original_tag = SOV
 			}
 			available = {
-				has_completed_focus = SOV_positive_heroism
-				if = {
-					limit = {
-						has_character_flag = SOV_exiled_flag
-					}
-					NOT = { has_character_flag = SOV_exiled_flag }
-				}
 			}
 			traits = {
 				mass_assault_expert
@@ -218,21 +211,10 @@ characters = {
 			allowed = {
 			}
 			visible = {
-				#NOT VISIBLE AFTER NEW TANK CORP IF YOU WENT POSITIVE
-				NOT = {
-					AND = {
-						has_completed_focus = SOV_positive_heroism
-						has_completed_focus = SOV_barb_2
-					}
-				}
 				NOT = { has_character_flag = SOV_exiled_flag }
 			}
 			available = {
-				OR = {
-				has_completed_focus = SOV_positive_heroism
-				has_completed_focus = SOV_barb_2	
 			}
-		}
 			traits = {
 				army_armored_2
 			}
@@ -260,16 +242,11 @@ characters = {
 				NOT = { has_character_flag = SOV_exiled_flag }
 			}
 			available = {
-				#AVAILABLE WHEN YOU DO NEW TANK CORP IF YOU WENT POSITIVE
-				AND = {
-				has_completed_focus = SOV_positive_heroism
-				has_completed_focus = SOV_barb_2
-				}
 			}
 			traits = {
 				army_armored_3
 			}
-				cost = 150
+			cost = 150
 		}		
 	}
 
@@ -1461,7 +1438,6 @@ characters = {
 			idea_token = alexander_golovanov
 			ledger = air
 			available = {
-				has_completed_focus = SOV_appoint_golovanov
 			}
 			allowed = {
 				original_tag = SOV
@@ -2144,7 +2120,6 @@ characters = {
 				has_dlc = "La Resistance"
 			}
 			available = { 
-				has_completed_focus = SOV_road_quality
 			}
 			visible = {
 				always = yes

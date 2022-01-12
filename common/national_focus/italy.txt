@@ -1154,14 +1154,6 @@ focus_tree = {
 			army_experience = 25
 			add_tech_bonus = {
 				name = special_bonus
-				bonus = 1.0
-				uses = 1
-				category = para_tech
-				#technology = paratroopers
-				#technology = paratroopers2
-			}
-			add_tech_bonus = {
-				name = special_bonus
 				ahead_reduction = 2
 				uses = 1
 				category = mountaineers_tech

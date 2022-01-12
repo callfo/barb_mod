@@ -2,6 +2,7 @@
 # If adding new technology, make sure they are uniquely named.
 
 technology_categories = {
+	special_tech
 	basic_medium_tank_chassis
 	improved_medium_tank_chassis
 	advanced_medium_tank_chassis
@@ -19,9 +20,9 @@ technology_categories = {
 	cat_medium_armor
 	cat_heavy_armor
 	artillery
-    	shocktroop
-    	shock_tech
-    	desert_tech
+	shocktroop
+	shock_tech
+	desert_tech
 	cat_anti_tank
 	cat_anti_air
 	naval_air

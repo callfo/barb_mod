@@ -1,0 +1,32 @@
+characters = {
+
+	POR_antonio_de_oliveira_salazar = {
+		name = POR_antonio_de_oliveira_salazar
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/portrait_por_antonio_de_oliveira_salazar.dds"
+			}
+		}
+		country_leader = {
+			ideology=despotism
+			traits = { conservative_nationalist_lar }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	POR_bento_goncalves = {
+		name = POR_bento_goncalves
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/POR/portrait_por_bento_goncalves.dds"
+			}
+		}
+		country_leader = {
+			ideology=marxism
+			traits = { veteran_communist }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

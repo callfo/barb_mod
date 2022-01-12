@@ -36,13 +36,6 @@ set_stability = 0.8
 		interwar_artillery = 1
 		interwar_antiair = 1
 		
-		#doctrines
-		air_superiority = 1
-		
-		mass_assault = 1
-		pocket_defence = 1
-		defence_in_depth = 1
-
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1

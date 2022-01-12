@@ -1111,7 +1111,7 @@ characters={
 				original_tag = GER
 			}
 			available = {
-				has_completed_focus = GER_albert_speer_focus
+				date > 1942.1.1
 			}
 			traits = {
 				rustungsorganisator

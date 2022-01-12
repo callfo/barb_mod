@@ -90,22 +90,6 @@ characters={
 				}
 			}
 			ai_will_do  = {
-				factor  = 10.000
-				modifier  = {
-					is_historical_focus_on  = yes 
-					has_game_rule  = {
-						rule  = USA_ai_behavior 
-						option  = default 
-					}
-					factor  = 0.000
-				}
-				modifier  = {
-					is_historical_focus_on  = yes 
-					NOT  = {
-						has_dlc = "Man the Guns"
-					}
-					factor  = 0.000
-				}
 			}
 		}
 		country_leader={
@@ -756,9 +740,6 @@ characters={
 			idea_token = ernest_king
 			allowed = {
 				original_tag = USA
-			}
-			available = {
-				has_completed_focus = USA_Ernst_King
 			}
 			traits = {
 				navy_chief_decisive_battle_2
@@ -1472,9 +1453,6 @@ characters={
 			allowed  = {
 				original_tag  = USA
 			}
-			available  = {
-				has_completed_focus = USA_voice_of_the_people
-			}
 			visible  = {
 				has_dlc = "Man the Guns"
 			}
@@ -1507,9 +1485,6 @@ characters={
 			idea_token = USA_william_regnery
 			allowed  = {
 				original_tag  = USA
-			}
-			available  = {
-				has_completed_focus = USA_appoint_regnery
 			}
 			visible  = {
 				has_dlc = "Man the Guns"
@@ -1605,22 +1580,6 @@ characters={
 				}
 			}
 			ai_will_do  = {
-				factor  = 10.000
-				modifier  = {
-					is_historical_focus_on  = yes 
-					has_game_rule  = {
-						rule  = USA_ai_behavior 
-						option  = default 
-					}
-					factor  = 0.000
-				}
-				modifier  = {
-					is_historical_focus_on  = yes 
-					NOT  = {
-						has_dlc = "Man the Guns"
-					}
-					factor  = 0.000
-				}
 			}
 		}
 	}
@@ -1638,9 +1597,6 @@ characters={
 			idea_token = USA_robert_taft
 			allowed  = {
 				original_tag  = USA
-			}
-			available = {
-				has_completed_focus = USA_invite_robert_taft
 			}
 			traits  = {
 				silent_workhorse_usa 

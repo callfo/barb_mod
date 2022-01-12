@@ -4846,12 +4846,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_tech_bonus = {
-				name = HUN_form_parachute_battalions
-				bonus = 3.0
-				uses = 1
-				category = para_tech
-			}
 		}
 	}
 
