@@ -8,10 +8,10 @@ state={
 	history={
 		owner = YUG
 		add_core_of = YUG
-		add_core_of = BOS
+		
 		add_core_of = SRP
 		add_claim_by = CRO
-		add_core_of = SER
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

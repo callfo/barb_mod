@@ -6,8 +6,8 @@ state={
 	history={
 		owner = SOV
 		add_core_of = ROM
-		add_core_of = UKR
-		add_core_of = MOL
+		
+		
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
