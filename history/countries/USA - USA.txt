@@ -22,8 +22,6 @@ set_technology = {
 	#basic_heavy_tank = 1  # PLACEHOLDER
 	#basic_medium_tank = 1 # PLACEHOLDER
 	early_fighter = 1
-	cv_early_fighter = 1
-	cv_naval_bomber1 = 1
 	naval_bomber1 = 1
 	early_bomber = 1
 	CAS1 = 1
@@ -152,16 +150,6 @@ set_popularities = {
 }
 
 add_ideas = {
-	USA_robert_taft
-	carl_spaatz
-	jimmy_doolittle
-	army_ordnance_department
-	general_electric
-	robert_goddard
-	USA_war_department
-	USA_intervention_in_europe
-	#laws
-	new_deal
 	free_trade
 	limited_conscription
 	partial_economic_mobilisation
