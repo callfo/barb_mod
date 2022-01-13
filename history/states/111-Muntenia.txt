@@ -9,7 +9,7 @@ state={
 	history={
 		owner = ROM
 		add_core_of = ROM
-		add_core_of = WAL
+		
 		buildings = {
 			infrastructure = 6
 			arms_factory = 4

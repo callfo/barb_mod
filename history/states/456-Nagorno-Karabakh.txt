@@ -8,8 +8,8 @@ state={
 	history={
 		owner = SOV
 		add_core_of = SOV
-		add_core_of = AZR
-		add_core_of = GEO
+		
+		
 		buildings = {
 			infrastructure = 3
 		}

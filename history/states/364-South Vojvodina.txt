@@ -10,8 +10,8 @@ state={
 	history={
 		owner = YUG
 		add_core_of = YUG
-		add_core_of = SER
-		add_core_of = VJV
+		
+		
 		add_claim_by = CRO
 		buildings={
 			infrastructure=4
