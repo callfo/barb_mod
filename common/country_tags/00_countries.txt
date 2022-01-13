@@ -46,6 +46,7 @@ SOV = "countries/Soviet Union.txt"
 EGY = "countries/Egypt.txt"
 IRQ = "countries/Iraq.txt"
 SAU = "countries/Saudi Arabia.txt"
+PER = "countries/Persia.txt"
 
 ###USA
 USA = "countries/USA.txt"

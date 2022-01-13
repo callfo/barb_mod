@@ -6,7 +6,6 @@ state={
 	history={
 		owner = GER
 		add_core_of = GER
-		add_core_of = PRE
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -17,11 +16,11 @@ state={
 
 		}
 		victory_points = { 
-					  6791 1
-                    }
+			6791 1
+		}
 		victory_points = { 
-					  13255 1 
-					}
+			13255 1 
+		}
 		victory_points = { 
 					  5716 1 
 					}

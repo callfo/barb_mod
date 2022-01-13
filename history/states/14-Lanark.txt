@@ -12,7 +12,6 @@ state={
 	}
 	history={
 		add_core_of = ENG
-		add_core_of = SCO
 		owner = ENG
 		buildings = {
 			infrastructure = 7

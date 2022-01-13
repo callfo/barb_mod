@@ -11,11 +11,9 @@ state={
 		steel=17 # was: 16
 		aluminium=5 # was: 4
 	}
-	history=
-	{
+	history= {
 		owner = ENG
 		add_core_of = ENG
-		add_core_of = WLS
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
