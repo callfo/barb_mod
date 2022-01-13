@@ -138,10 +138,6 @@ SAU = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 222 247 198 }
 }
-UKR = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
-}
 
 SER = {
 	color = rgb { 160 110 110 }
