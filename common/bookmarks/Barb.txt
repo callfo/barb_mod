@@ -1,14 +1,113 @@
 bookmarks = {
 	bookmark = {
-		name = "BARB_NAME"
-		desc = "BARB_DESC"
+		name = "BARB_MOD_NAME"
+		desc = "BARB_MOD_NAME_DESC"
 		date = 1941.1.1.12
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1939"
 		default_country = "GER"
-		default = no
-		"---"={
-			history = "OTHER_BARB_DESC"
+		default = yes
+	
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
 		}
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"POL"={
+			history = "POL_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"ROM"={
+			history = "ROM_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+		"HUN"={
+			minor = yes
+			history = "HUN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"YUG"={
+			minor = yes
+			history = "YUG_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"EGY"={
+			minor = yes
+			history = "EGY_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"CRO"={
+			minor = yes
+			history = "CRO_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+
+
+		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
