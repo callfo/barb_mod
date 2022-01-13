@@ -188,7 +188,7 @@ division_template = {
 division_template = {
 	name = "Infanterie-Division (mot.)" 			# Used to be SS division -> New system for SS. Also messed up the civil war by refusing to move to the fascists, and immersion-breaking to have them around as royalists
 
-	division_names_group = GER_MOT_02
+	division_names_group = GER_MOT_01
 
 	regiments = {
 		motorized = { x = 0 y = 0 }
