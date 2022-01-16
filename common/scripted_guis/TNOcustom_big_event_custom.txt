@@ -1,0 +1,218 @@
+scripted_gui = {	
+
+	TNO_SG_big_event_total_war_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_total_war_custom_window"
+
+		visible = {
+			has_country_flag = big_event_custom_total_war ### this country flag triggers the #superevent
+		}
+	}
+
+	TNO_SG_big_event_frame_total_war_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_total_war_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_total_war
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_total_war
+			}
+		}
+	}	
+
+	TNO_SG_big_event_danzig_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_danzig_custom_window"
+
+		visible = {
+			has_country_flag = big_event_custom_danzig
+		}
+	}
+
+	TNO_SG_big_event_frame_danzig_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_danzig_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_danzig
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_danzig
+			}
+		}
+	}
+	
+	TNO_SG_big_event_italy_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_italy_custom_window"
+
+		visible = {
+			has_country_flag = big_event_custom_italy
+		}
+	}
+
+	TNO_SG_big_event_frame_italy_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_italy_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_italy
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_italy
+			}
+		}
+	}
+	
+	TNO_SG_big_event_barb_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_barb_custom_window"
+
+		visible = {
+			has_country_flag = big_event_custom_barb
+		}
+	}
+
+	TNO_SG_big_event_frame_barb_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_barb_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_barb
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_barb
+			}
+		}
+	}
+	
+	TNO_SG_big_event_moscow_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_moscow_custom_window"
+
+		visible = {
+			has_country_flag = big_event_custom_moscow
+		}
+	}
+
+	TNO_SG_big_event_frame_moscow_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_moscow_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_moscow
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_moscow
+			}
+		}
+	}
+	
+	TNO_SG_big_event_japan_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_japan_custom_window"
+
+		visible = {
+			has_country_flag = big_event_custom_japan
+		}
+	}
+
+	TNO_SG_big_event_frame_japan_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_japan_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_japan
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_japan
+			}
+		}
+	}
+	
+	TNO_SG_big_event_berlin_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_berlin_custom_window"
+
+		visible = {
+			has_country_flag = big_event_custom_berlin
+		}
+	}
+
+	TNO_SG_big_event_frame_berlin_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_berlin_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_berlin
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_berlin
+			}
+		}
+	}
+	
+	TNO_SG_big_event_allied_berlin_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_allied_berlin_custom_window"
+
+		visible = {
+			has_country_flag = big_event_custom_allied_berlin
+		}
+	}
+
+	TNO_SG_big_event_frame_allied_berlin_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_allied_berlin_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_allied_berlin
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_allied_berlin
+			}
+		}
+	}
+	
+	TNO_SG_big_event_scw_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_scw_custom_window"
+
+		visible = {
+			has_country_flag = big_event_custom_scw
+		}
+	}
+
+	TNO_SG_big_event_frame_scw_custom = {
+		context_type = player_context
+		window_name = "TNO_SG_big_event_frame_scw_custom"
+
+		visible = {
+			has_country_flag = big_event_custom_scw
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_custom_scw
+			}
+		}
+	}
+}

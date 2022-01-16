@@ -19,5 +19,406 @@ focus_tree = {
 	}
 
 	default = no
+
+focus = {
+	id = deutschland_sieg
+	icon = gfx_unknown
+	cost = 2
+	x = 15
+	y = 0
+	completion_reward = {
+	
+	}
+
 }
 
+focus = {
+	id = contruction_hungary
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = deutschland_sieg
+	prerequisite = { focus = deutschland_sieg }
+	mutually_exclusive = { focus = infra_pol }
+	mutually_exclusive = { focus = infra_rom }
+	x = 0
+	y = 2
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = infra_pol
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = deutschland_sieg
+	prerequisite = { focus = deutschland_sieg }
+	mutually_exclusive = { focus = infra_rom }
+	mutually_exclusive = { focus = contruction_hungary }
+	x = -4
+	y = 2
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = infra_rom
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = deutschland_sieg
+	prerequisite = { focus = deutschland_sieg }
+	mutually_exclusive = { focus = infra_pol }
+	mutually_exclusive = { focus = contruction_hungary }
+	x = 4
+	y = 2
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = tank_crew
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = deutschland_sieg
+	prerequisite = { focus = deutschland_sieg }
+	mutually_exclusive = { focus = pilots_east }
+	x = 2
+	y = 3
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = pilots_east
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = deutschland_sieg
+	prerequisite = { focus = deutschland_sieg }
+	mutually_exclusive = { focus = tank_crew }
+	x = -2
+	y = 3
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = repeat_france
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = deutschland_sieg
+	prerequisite = { focus = infra_pol focus = contruction_hungary focus = infra_rom }
+	prerequisite = { focus = pilots_east focus = tank_crew }
+	mutually_exclusive = { focus = red_october }
+	mutually_exclusive = { focus = moscow }
+	x = -3
+	y = 4
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = red_october
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = deutschland_sieg
+	prerequisite = { focus = infra_pol focus = contruction_hungary focus = infra_rom }
+	prerequisite = { focus = pilots_east focus = tank_crew }
+	mutually_exclusive = { focus = repeat_france }
+	mutually_exclusive = { focus = moscow }
+	x = 0
+	y = 4
+	completion_reward = {
+	
+	}
+
+}
+focus = {
+	id = moscow
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = deutschland_sieg
+	prerequisite = { focus = infra_pol focus = contruction_hungary focus = infra_rom }
+	prerequisite = { focus = pilots_east focus = tank_crew }
+	mutually_exclusive = { focus = red_october }
+	mutually_exclusive = { focus = repeat_france }
+	x = 3
+	y = 4
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = save_italy
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = deutschland_sieg
+	prerequisite = { focus = deutschland_sieg }
+	x = -10
+	y = 2
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = panzerarmee
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = save_italy
+	prerequisite = { focus = save_italy }
+	mutually_exclusive = { focus = expeditionary_force }
+	mutually_exclusive = { focus = outfit_italians }
+	x = -2
+	y = 1
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = expeditionary_force
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = save_italy
+	prerequisite = { focus = save_italy }
+	mutually_exclusive = { focus = outfit_italians }
+	mutually_exclusive = { focus = panzerarmee }
+	x = 0
+	y = 1
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = outfit_italians
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = save_italy
+	prerequisite = { focus = save_italy }
+	mutually_exclusive = { focus = expeditionary_force }
+	mutually_exclusive = { focus = panzerarmee }
+	x = 2
+	y = 1
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = dissent_egypt
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = panzerarmee
+	prerequisite = { focus = panzerarmee }
+	mutually_exclusive = { focus = ig_faben }
+	x = -1
+	y = 1
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id =  ig_faben
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = panzerarmee
+	prerequisite = { focus = panzerarmee }
+	mutually_exclusive = { focus = dissent_egypt }
+	x = 1
+	y = 1
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = rommel_plan
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = expeditionary_force
+	prerequisite = { focus = expeditionary_force focus = outfit_italians }
+	mutually_exclusive = { focus = kesselring_vision }
+	x = 1
+	y = 1
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = kesselring_vision
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = expeditionary_force
+	prerequisite = { focus = expeditionary_force focus = outfit_italians }
+	mutually_exclusive = { focus = rommel_plan }
+	x = 3
+	y = 1
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = extend_atlantik_wall
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = expeditionary_force
+	prerequisite = { focus = ig_faben focus = dissent_egypt }
+	prerequisite = { focus = kesselring_vision focus = rommel_plan }
+	mutually_exclusive = { focus = tigers_tunisia }
+	x = -1
+	y = 2
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = tigers_tunisia
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = expeditionary_force
+	prerequisite = { focus = ig_faben focus = dissent_egypt }
+	prerequisite = { focus = kesselring_vision focus = rommel_plan   }
+	mutually_exclusive = { focus = extend_atlantik_wall }
+	x = 1
+	y = 2
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = new_inf
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = deutschland_sieg
+	prerequisite = { focus = deutschland_sieg }
+	mutually_exclusive = { focus = panzer_corps }
+	x = 8
+	y = 2
+	completion_reward = {
+	
+	}
+
+}
+focus = {
+	id = panzer_corps
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = deutschland_sieg
+	prerequisite = { focus = deutschland_sieg }
+	mutually_exclusive = { focus = new_inf }
+	x = 10
+	y = 2
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = teuton
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = new_inf
+	prerequisite = { focus = new_inf focus = panzer_corps }
+	mutually_exclusive = { focus = prussian_discipline }
+	mutually_exclusive = { focus = german_prev }
+	x = 1
+	y = 1
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = german_prev
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = new_inf
+	prerequisite = { focus = new_inf focus = panzer_corps }
+	mutually_exclusive = { focus = prussian_discipline }
+	mutually_exclusive = { focus = teuton }
+	x = -1
+	y = 1
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = prussian_discipline
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = new_inf
+	prerequisite = { focus = new_inf focus = panzer_corps }
+	mutually_exclusive = { focus = teuton }
+	mutually_exclusive = { focus = german_prev }
+	x = 3
+	y = 1
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = favor_rom
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = new_inf
+	prerequisite = { focus = german_prev focus = teuton focus = prussian_discipline }
+	mutually_exclusive = { focus = favor_hun }
+	x = 0
+	y = 2
+	completion_reward = {
+	
+	}
+
+}
+
+focus = {
+	id = favor_hun
+	icon = gfx_unknown
+	cost = 2
+	relative_position_id = new_inf
+	prerequisite = { focus = german_prev focus = teuton focus = prussian_discipline }
+	mutually_exclusive = { focus = favor_rom }
+	x = 2
+	y = 2
+	completion_reward = {
+	
+	}
+
+}
+
+}

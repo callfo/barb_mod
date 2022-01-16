@@ -9,10 +9,6 @@ spriteTypes = { ##### THIS FILE DEFINES THE PICTURE FOR EACH SUPER EVENT
 	}
 	
 	spriteType = {
-		name = "GFX_superevent_custom_berlin"
-		textureFile = "gfx//superevent_pictures//berlin.tga"
-	}
-	spriteType = {
 		name = "GFX_superevent_custom_total"
 		textureFile = "gfx//superevent_pictures//total.tga"
 	}
@@ -31,5 +27,49 @@ spriteTypes = { ##### THIS FILE DEFINES THE PICTURE FOR EACH SUPER EVENT
 	spriteType = {
 		name = "GFX_superevent_custom_Downfall"
 		textureFile = "gfx//superevent_pictures//Downfall.tga"
+	}
+	spriteType = {
+		name = "GFX_superevent_custom_total_war"
+		textureFile = "gfx//superevent_pictures//total.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_superevent_custom_danzig"
+		textureFile = "gfx//superevent_pictures//Danzig.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_superevent_custom_italy"
+		textureFile = "gfx//superevent_pictures//Italy.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_superevent_custom_barb"
+		textureFile = "gfx//superevent_pictures//barbarossa.tga"
+	}
+
+	spriteType = {
+		name = "GFX_superevent_custom_moscow"
+		textureFile = "gfx//superevent_pictures//moscow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_superevent_custom_japan"
+		textureFile = "gfx//superevent_pictures//pearl_harbor.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_superevent_custom_berlin"
+		textureFile = "gfx//superevent_pictures//berlin.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_superevent_custom_allied_berlin"
+		textureFile = "gfx//superevent_pictures//allied_berlin.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_superevent_custom_scw"
+		textureFile = "gfx//superevent_pictures//scw.tga"
 	}
 }

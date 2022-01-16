@@ -169,6 +169,16 @@ ideas = {
 	# Special ones that can be applied on other countries through focus system.
 	country = {
 	
+		stockpile = { 
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 5
+			}
+		}
+	
 		nationalism = {
 			
 			allowed = {

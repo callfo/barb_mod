@@ -1,0 +1,59 @@
+sound = { ### DO NOT MISTAKE SOUND (HERE) FOR SOUNDEFFECTS (ANOTHER FILE)
+	name = "latin_spring_bigevent_sound" #name you're using for the sound
+	file = "customsound/tno_se_custom_latin_spring.wav" ## location of the sound file
+	always_load = no
+}
+
+sound = {
+	name = "barb_bigevent_sound"
+	file = "customsound/tno_se_custom_barbarossa.wav"
+	always_load = no
+}
+
+sound = {
+	name = "total_war_bigevent_sound"
+	file = "customsound/tno_se_custom_total_war.wav"
+	always_load = no
+}
+
+sound = {
+	name = "danzig_bigevent_sound"
+	file = "customsound/tno_se_custom_danzig.wav"
+	always_load = no
+}
+
+sound = {
+	name = "italy_bigevent_sound"
+	file = "customsound/tno_se_custom_italy.wav"
+	always_load = no
+}
+
+sound = {
+	name = "moscow_bigevent_sound"
+	file = "customsound/tno_se_custom_moscow.wav"
+	always_load = no
+}
+
+sound = {
+	name = "japan_bigevent_sound"
+	file = "customsound/tno_se_custom_japan.wav"
+	always_load = no
+}
+
+sound = {
+	name = "berlin_bigevent_sound"
+	file = "customsound/tno_se_custom_berlin.wav"
+	always_load = no
+}
+
+sound = {
+	name = "allied_berlin_bigevent_sound"
+	file = "customsound/tno_se_custom_allied_berlin.wav"
+	always_load = no
+}
+
+sound = {
+	name = "scw_bigevent_sound"
+	file = "customsound/tno_se_custom_scw.wav"
+	always_load = no
+}
