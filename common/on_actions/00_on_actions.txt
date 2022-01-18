@@ -1,37 +1,33 @@
 on_actions = {
-	# country 
-
 	on_startup = {
 		effect = {
-		every_country = {
-			limit = {
-				AND = {
-				tag = SOV 
-				tag = GER 
+			GER = { 
+				add_timed_idea = {
+					idea = RBM_macro_simulator
+					days = 150 
+				}
+				add_political_power = 800
+				army_experience = 999 
+				air_experience = 999 
+			}
+			SOV = {
+				add_timed_idea = {
+					idea = RBM_macro_simulator
+					days = 150 
+				}
+				add_political_power = 800
+				army_experience = 999 
+				air_experience = 999 
+
+				add_offsite_building = {
+					type = arms_factory 
+					level = 170
+				}
+				add_offsite_building = {
+					type = industrial_complex 
+					level = 50 
 				}
 			}
-			add_timed_idea = {
-				idea = RBM_macro_simulator
-				days = 150 
-			}
-			add_political_power = 800
-			army_experience = 999 
-			air_experience = 999 
-
-		}
-		every_country = {
-			limit = {
-				tag = SOV 
-			}
-			add_offsite_building = {
-				type = arms_factory 
-				amount = 170
-			}
-			add_offsite_building = {
-				type = industrial_complex 
-				amount = 50 
-			}
-		}
 		}
 	}
 

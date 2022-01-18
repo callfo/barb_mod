@@ -188,9 +188,9 @@ ideas = {
 
 				production_speed_industrial_complex_factor = 0.5 
 				production_speed_synthetic_refinery_factor = 0.5  
-				production_speed_synthetic_radar_station_factor = 0.5
-				production_speed_synthetic_air_base_factor = 0.5 
-				production_speed_synthetic_rail_way_factor = 0.5 
+				production_speed_radar_station_factor = 0.5
+				production_speed_air_base_factor = 0.5 
+				production_speed_rail_way_factor = 0.5 
 			}
 		}
 	
