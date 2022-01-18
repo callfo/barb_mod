@@ -12,6 +12,7 @@ state={
 		add_core_of = GER
 		buildings = {
 			infrastructure = 6
+			arms_factory = 2
 		}
 		victory_points = {
 		1031 1

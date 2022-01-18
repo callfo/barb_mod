@@ -11,6 +11,28 @@ declare_war_on = {
 
 # Starting tech
 set_technology = {
+
+	#NSB ARMOR TECH# 
+	armor_tech_1 = 1 
+	armor_tech_2 = 1 
+	engine_tech_1 = 1 
+	engine_tech_2 = 1 
+	gwtank_chassis = 1 
+	basic_light_tank_chassis = 1
+	improved_light_tank_chassis = 1 
+	basic_medium_tank_chassis = 1
+	improved_medium_tank_chassis = 1 
+	mechanised_infantry = 1 
+
+	#Arty Stuff
+	artillery2 = 1
+	interwar_antitank = 1
+	antitank1 = 1
+	antitank3 = 1 
+	interwar_antiair = 1 
+	antiair1 = 1
+	antiair2 = 1 
+
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	infantry_weapons2 = 1
