@@ -2,7 +2,7 @@ ideas = {
 
 	hidden_ideas = {
 	
-				night1 = {
+		night1 = {
 			allowed = {
 				always = no
 			}	
@@ -85,7 +85,6 @@ ideas = {
 			}
 		}
 
-
 		continuous_air_production = {
 			allowed = {
 				always = no
@@ -100,67 +99,67 @@ ideas = {
 			equipment_bonus = {
 				fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				cv_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				jet_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				cv_CAS_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				CAS_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				nav_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				cv_nav_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				rocket_interceptor_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				jet_tac_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				jet_strat_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				heavy_fighter_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				strat_bomber_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				transport_plane_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				guided_missile_equipment = {
 					instant = yes
-					build_cost_ic = -0.10
+					build_cost_ic = -0.025
 				}
 				scout_plane_equipment = {
 					instant = yes
-					build_cost_ic = -0.10	
+					build_cost_ic = -0.025	
 				}
 			}		
 		}
@@ -169,13 +168,29 @@ ideas = {
 	# Special ones that can be applied on other countries through focus system.
 	country = {
 	
-		stockpile = { 
+		RBM_macro_simulator = { 
 			allowed = {
 				always = no
 			}
+
+			picture = generic_infantry_bonus
+
+
 			removal_cost = -1
+
 			modifier = {
+				air_mission_xp_gain_factor = 10
+				air_training_xp_gain_factor = 10 
+				training_time_factor = -0.9
+				experience_gain_army = 10 
+				production_factory_start_efficiency_factor = 0.5 	
 				industrial_capacity_factory = 5
+
+				production_speed_industrial_complex_factor = 0.5 
+				production_speed_synthetic_refinery_factor = 0.5  
+				production_speed_synthetic_radar_station_factor = 0.5
+				production_speed_synthetic_air_base_factor = 0.5 
+				production_speed_synthetic_rail_way_factor = 0.5 
 			}
 		}
 	

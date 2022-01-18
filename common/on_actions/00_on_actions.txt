@@ -1,5 +1,36 @@
 on_actions = {
 	# country 
+
+	on_startup = {
+		every_country = {
+			limit = {
+				tag = SOV 
+				tag = GER 
+			}
+			add_timed_idea = {
+				idea = RBM_macro_simulator
+				days = 150 
+			}
+			add_political_power = 800
+			army_experience = 999 
+			air_experience = 999 
+
+		}
+		every_country = {
+			limit = {
+				tag = SOV 
+			}
+			add_offsite_building = {
+				type = arms_factory 
+				amount = 170
+			}
+			add_offsite_building = {
+				type = industrial_complex 
+				amount = 50 
+			}
+		}
+	}
+
 	on_new_term_election = {
 		random_events = {
 			100 = spain.9

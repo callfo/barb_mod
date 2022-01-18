@@ -2,6 +2,16 @@
 # Viktor Baydalakov has an unused portrait
 
 characters = {
+
+
+  ####    ####   #    #  #    #  #####  #####   #   #      #       ######    ##    #####   ######  #####    ####  
+ #    #  #    #  #    #  ##   #    #    #    #   # #       #       #        #  #   #    #  #       #    #  #      
+ #       #    #  #    #  # #  #    #    #    #    #        #       #####   #    #  #    #  #####   #    #   ####  
+ #       #    #  #    #  #  # #    #    #####     #        #       #       ######  #    #  #       #####        # 
+ #    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
+  ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
+                                                                                                                  
+
 	SOV_iosif_stalin = {
 		name = SOV_iosif_stalin
 		portraits = {
@@ -201,10 +211,12 @@ characters = {
 			allowed = {
 			}
 			visible = {
+				#NOT VISIBLE AFTER NEW TANK CORP IF YOU WENT POSITIVE
 				NOT = { has_character_flag = SOV_exiled_flag }
 			}
 			available = {
 			}
+
 			traits = {
 				army_armored_2
 			}
@@ -236,7 +248,7 @@ characters = {
 			traits = {
 				army_armored_3
 			}
-			cost = 150
+				cost = 150
 		}		
 	}
 
