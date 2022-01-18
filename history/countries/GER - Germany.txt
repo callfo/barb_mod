@@ -24,6 +24,17 @@ set_technology = {
 	improved_medium_tank_chassis = 1 
 	mechanised_infantry = 1 
 
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	improved_decimetric_radar = 1 
+	centimetric_radar = 1 
+	mechanical_computing = 1 
+	computing_machine = 1 
+	improved_computing_machine = 1 	
+
+
 	#Arty Stuff
 	artillery2 = 1
 	interwar_antitank = 1
