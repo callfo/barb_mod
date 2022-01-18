@@ -40,7 +40,7 @@ recruit_character = SOV_vasily_blyukher
 
 
 set_research_slots = 3
-set_stability = 0.8
+set_stability = 2
 set_war_support = 0.5
 # Starting tech
 set_technology = {
