@@ -8,7 +8,12 @@ on_actions = {
 				}
 				add_political_power = 800
 				army_experience = 999 
-				air_experience = 999 
+				air_experience = 999
+				add_offsite_building = {
+					type = arms_factory 
+					level = 100
+				}
+
 			}
 			SOV = {
 				add_timed_idea = {
@@ -26,6 +31,24 @@ on_actions = {
 				add_offsite_building = {
 					type = industrial_complex 
 					level = 50 
+				}
+			}
+			ROM = {
+				add_timed_idea = {
+					idea = RBM_macro_simulator
+					days = 150 
+				}
+				add_political_power = 800
+				army_experience = 999 
+				air_experience = 999 
+
+				add_offsite_building = {
+					type = arms_factory 
+					level = 15
+				}
+				add_offsite_building = {
+					type = industrial_complex 
+					level = 10
 				}
 			}
 		}
