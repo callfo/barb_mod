@@ -356,7 +356,7 @@ if = {
 
 	#LIGHT TD
 	create_equipment_variant = {
-		name = "Nashorn"
+		name = "Marder"
 		type = medium_tank_destroyer_chassis_2
 		parent_version = 0
 		modules = {
