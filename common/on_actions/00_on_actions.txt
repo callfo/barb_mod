@@ -1,6 +1,175 @@
 on_actions = {
 	on_startup = {
 		effect = {
+			ROM = {
+				every_state = {
+					limit = {
+						is_controlled_by = ROM
+					}
+					add_building_construction = {
+						type = supply_node
+						province = {
+							all_provinces = yes
+							limit_to_victory_point > 0.5
+						}
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			HUN = {
+				every_state = {
+					limit = {
+						is_controlled_by = HUN
+					}
+					add_building_construction = {
+						type = supply_node
+						province = {
+							all_provinces = yes
+							limit_to_victory_point > 0.5
+						}
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			BUL = {
+				every_state = {
+					limit = {
+						is_controlled_by = BUL
+					}
+					add_building_construction = {
+						type = supply_node
+						province = {
+							all_provinces = yes
+							limit_to_victory_point > 0.5
+						}
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			ITA = {
+				every_state = {
+					limit = {
+						is_controlled_by = ITA
+					}
+
+					add_building_construction = {
+						type = supply_node
+						province = {
+							all_provinces = yes
+							limit_to_victory_point > 0.5
+						}
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			YUG = {
+				every_state = {
+					limit = {
+						is_controlled_by = YUG
+					}
+
+					add_building_construction = {
+						type = supply_node
+						province = {
+							all_provinces = yes
+							limit_to_victory_point > 0.5
+						}
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			GER = {
+				every_state = {
+					limit = {
+						is_controlled_by = GER
+					}
+
+					add_building_construction = {
+						type = supply_node
+						province = {
+							all_provinces = yes
+							limit_to_victory_point > 0.5
+						}
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			FRA = {
+				every_state = {
+					limit = {
+						is_controlled_by = SOV
+					}
+
+					add_building_construction = {
+						type = supply_node
+						province = {
+							all_provinces = yes
+							limit_to_victory_point > 0.5
+						}
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+
+			SOV = {
+				every_state = {
+					limit = {
+						is_controlled_by = SOV
+					}
+
+					add_building_construction = {
+						type = supply_node
+						province = {
+							all_provinces = yes
+							limit_to_victory_point > 0.5
+						}
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			ENG = {
+				every_state = {
+					limit = {
+						is_controlled_by = ENG
+					}
+					add_building_construction = {
+						type = supply_node
+						province = {
+							all_provinces = yes
+							limit_to_victory_point > 0.5
+						}
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			EGY = {
+				every_state = {
+					limit = {
+						is_controlled_by = EGY
+					}
+					add_building_construction = {
+						type = supply_node
+						province = {
+							all_provinces = yes
+							limit_to_victory_point > 0.5
+						}
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+
+		effect = {
 			GER = { 
 				add_timed_idea = {
 					idea = RBM_macro_simulator

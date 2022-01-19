@@ -470,7 +470,6 @@ equipment_modules = {
 		multiply_stats = {
 			
 		}
-
 	}
 
 	tank_modern_tank_turret = {
@@ -485,9 +484,7 @@ equipment_modules = {
 		xp_cost = 2
 		multiply_stats = {
 		}
-
 	}
-
 
 	###Weapons
 
